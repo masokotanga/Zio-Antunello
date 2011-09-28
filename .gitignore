@@ -1,4 +1,6 @@
-*~
+# Generic file taken from
+# https://github.com/github/gitignore/blob/master/Grails.gitignore
+
 *.iws
 *Db.properties
 *Db.script
@@ -9,3 +11,9 @@ target
 /plugins
 /web-app/plugins
 /web-app/WEB-INF/classes
+
+### Exclude stuff introduced by eclipse
+target-eclipse
+# This is a linkedResource, it doesn't really exists as a folder.
+# Maybe should go in .git/info/exclude ?
+.link_to_grails_plugins
